@@ -18,3 +18,30 @@ Falso Positivo (Risco de Gestão): Ocorre quando o modelo rotula um estudante sa
 Um ponto ético fundamental na execução do KNN é o risco de viés e determinismo técnico. Como o algoritmo se baseia estritamente na distância matemática entre atributos (como o curso de graduação ou a nota média/CGPA), o modelo pode criar correlações estatísticas perigosas e desprovidas de causalidade clínica.
 Por exemplo, se a base amostral contiver uma prevalência maior de alunos de Engenharia com depressão, o algoritmo pode passar a classificar automaticamente novos estudantes de Engenharia como deprimidos, ignorando a individualidade psicológica e o contexto de cada ser humano.
 Dessa forma, o grupo reforça que este modelo não deve, sob nenhuma circunstância, ser utilizado como um diagnóstico clínico definitivo, mas sim restrito ao papel de ferramenta estatística de triagem secundária para apoiar equipes de psicologia humanas.
+
+
+Cronograma de Execução:
+Seleção dos Datasets e Análise Exploratória Inicial (dataset.ipynb)
+Victor
+Concluído
+----------------
+Curadoria de dados, tratamento de nulos/duplicados e exportação do .csv
+Victor/Natan
+Concluído
+----------------
+Programação lógica e validação matemática do KNN Manual "do zero"
+victor,raissa,ronald
+Concluído
+----------------
+Implementação do Scikit-Learn e script de comparação de performance
+victor
+Concluído
+----------------
+Escrita do relatório final (ética, motivação) e montagem dos slides
+Natan
+Concluído
+----------------
+Revisão do repositório no GitHub e gravação/ensaio da Apresentação
+Natan
+Pronto para Entrega
+
