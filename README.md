@@ -19,7 +19,7 @@ Um ponto ético fundamental na execução do KNN é o risco de viés e determini
 Por exemplo, se a base amostral contiver uma prevalência maior de alunos de Engenharia com depressão, o algoritmo pode passar a classificar automaticamente novos estudantes de Engenharia como deprimidos, ignorando a individualidade psicológica e o contexto de cada ser humano.
 Dessa forma, o grupo reforça que este modelo não deve, sob nenhuma circunstância, ser utilizado como um diagnóstico clínico definitivo, mas sim restrito ao papel de ferramenta estatística de triagem secundária para apoiar equipes de psicologia humanas.
 
-
+----------------
 Cronograma de Execução:
 Seleção dos Datasets e Análise Exploratória Inicial (dataset.ipynb)
 Victor
