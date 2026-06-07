@@ -1,20 +1,20 @@
 # trabalho-multidisciplinar
 
-ANÁLISE PREDITIVA DE SINTOMAS DEPRESSIVOS EM ESTUDANTES UNIVERSITÁRIOS UTILIZANDO O ALGORITMO KNN 
+# ANÁLISE PREDITIVA DE SINTOMAS DEPRESSIVOS EM ESTUDANTES UNIVERSITÁRIOS UTILIZANDO O ALGORITMO KNN 
 
 1. CONTEXTUALIZAÇÃO E MOTIVAÇÃO DA ESCOLHA DO DATASET
 A saúde mental no ambiente acadêmico tornou-se uma das discussões mais críticas da última década. O ingresso no ensino superior submete os estudantes a uma transição abrupta, marcada por cobranças por rendimento — avaliadas formalmente por métricas como o Cumulative Grade Point Average (CGPA) —, escolhas de carreira precoces, pressões financeiras e, frequentemente, isolamento social ou mudanças na estrutura familiar, conforme ilustrado pela variável de estado civil presente no conjunto de dados.
 O conjunto de dados selecionado registra o perfil de 100 estudantes universitários, mapeando não apenas a presença de depressão, mas também comorbidades frequentes como ansiedade e ataques de pânico, além de indicar se o discente chegou a procurar atendimento especializado.
 Motivação Técnica e Social: A motivação deste trabalho reside na utilização do algoritmo de aprendizado de máquina K-Nearest Neighbors (KNN) para identificar se perfis de estudantes com históricos acadêmicos e pressões similares tendem a agrupar-se em quadros clínicos parecidos. Compreender esses padrões preditivos permite que as instituições de ensino deixem de agir de forma puramente reativa e passem a implementar políticas de apoio psicológico preventivas, preditivas e direcionadas.
-2. ASPECTOS ÉTICOS, SOCIAIS E DE SEGURANÇA
-2.1 Privacidade, Anonimização e Segurança dos Dados
+# 2. ASPECTOS ÉTICOS, SOCIAIS E DE SEGURANÇA
+# 2.1 Privacidade, Anonimização e Segurança dos Dados
 Por se tratar de um conjunto de dados que envolve informações extremamente íntimas e sensíveis (saúde mental, depressão e crises de pânico), a primeira preocupação ética estabelecida foi a garantia do anonimato. O dataset utilizado cumpre este requisito ao não armazenar informações de identificação direta, tais como nomes, números de matrícula, endereços eletrônicos ou CPFs.
 Sob a ótica de segurança e governança de dados, em conformidade com as diretrizes da Lei Geral de Proteção de Dados (LGPD), o descarte da coluna Timestamp na etapa de pré-processamento funcionou como uma camada extra de mitigação de riscos. Essa ação impede que o cruzamento do horário exato do preenchimento do formulário possa ser utilizado para engenharia reversa e eventual exposição da identidade de algum estudante.
-2.2 O Impacto Social de Falsos Positivos e Falsos Negativos
+# 2.2 O Impacto Social de Falsos Positivos e Falsos Negativos
 A aplicação de modelos de Inteligência Artificial (IA) em cenários que tangenciam a saúde humana exige uma análise rigorosa dos erros cometidos pelo algoritmo, avaliados sistematicamente através da Matriz de Confusão:
 Falso Negativo (Risco Crítico): Ocorre quando o modelo KNN prediz que o estudante está saudável, mas, na realidade, ele sofre de um quadro de depressão. Sob o ponto de vista social e humanitário, este erro é o mais perigoso, pois priva um indivíduo em situação de vulnerabilidade de ser alcançado por uma triagem preventiva da universidade, deixando-o desamparado.
 Falso Positivo (Risco de Gestão): Ocorre quando o modelo rotula um estudante saudável como de "alto risco para depressão". Embora não cause danos físicos diretos, este erro gera alarmismo psicológico desnecessário para o aluno e pode sobrecarregar e inflacionar os custos dos departamentos de assistência psicológica da instituição, os quais operam frequentemente com recursos e profissionais limitados.
-2.3 Viés Algorítmico e Determinismo
+# 2.3 Viés Algorítmico e Determinismo
 Um ponto ético fundamental na execução do KNN é o risco de viés e determinismo técnico. Como o algoritmo se baseia estritamente na distância matemática entre atributos (como o curso de graduação ou a nota média/CGPA), o modelo pode criar correlações estatísticas perigosas e desprovidas de causalidade clínica.
 Por exemplo, se a base amostral contiver uma prevalência maior de alunos de Engenharia com depressão, o algoritmo pode passar a classificar automaticamente novos estudantes de Engenharia como deprimidos, ignorando a individualidade psicológica e o contexto de cada ser humano.
 Dessa forma, o grupo reforça que este modelo não deve, sob nenhuma circunstância, ser utilizado como um diagnóstico clínico definitivo, mas sim restrito ao papel de ferramenta estatística de triagem secundária para apoiar equipes de psicologia humanas.
