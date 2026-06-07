@@ -22,26 +22,26 @@ Dessa forma, o grupo reforça que este modelo não deve, sob nenhuma circunstân
 ----------------
 Cronograma de Execução:
 Seleção dos Datasets e Análise Exploratória Inicial (dataset.ipynb)
-Victor
+| Victor
 Concluído
 ----------------
 Curadoria de dados, tratamento de nulos/duplicados e exportação do .csv
-Victor/Natan
+| Victor/Natan
 Concluído
 ----------------
 Programação lógica e validação matemática do KNN Manual "do zero"
-victor,raissa,ronald
+| victor,raissa,ronald
 Concluído
 ----------------
 Implementação do Scikit-Learn e script de comparação de performance
-victor
+| victor
 Concluído
 ----------------
 Escrita do relatório final (ética, motivação) e montagem dos slides
-Natan
+| Natan
 Concluído
 ----------------
 Revisão do repositório no GitHub e gravação/ensaio da Apresentação
-Natan
+| Natan
 Pronto para Entrega
 
